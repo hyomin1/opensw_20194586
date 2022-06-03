@@ -112,6 +112,7 @@ $ kill -l
 **1) 매크로란?**
 * 같은 동작을 반복하게 해주는 것이다.
 
+
 **2) 매크로 시작 방법**
 
 * q[name]을 한다.
@@ -122,6 +123,7 @@ $ q[name]
 
 * 그러면 recording @a 라면서 a라는 이름의 매크로가 기록중이라는 것을 알 수 있다.
 
+
 **3) 동작 입력**
 
 ![동작](https://user-images.githubusercontent.com/98298940/171876160-d7f738b2-b8d9-4bb4-acb4-94236981689f.png)
@@ -129,6 +131,23 @@ $ q[name]
 * 여기서는 매크로 동작 입력에 입력모드를 실행시킨후 hello world를 입력했다
 
 
+**4) 매크로 종료**
+
+* 다시 q를 입력하면 매크로 기록이 종료가 된다.
+
+![종료](https://user-images.githubusercontent.com/98298940/171876663-e4d3cfa6-a1bd-44d9-990b-9ea2c4a9211a.png)
+
+* 매크로 종료가 되면 recording @a가 사라진다.
+
+**5) 매크로 실행**
+
+```c
+$ @[name]
+```
+
+![매크로 실행](https://user-images.githubusercontent.com/98298940/171877319-8dd36b1e-9ced-42e5-b136-336a134961d1.png)
+
+* 세번째 줄에서 매크로를 실행하니 hello world가 입력된다.
 
 
 
