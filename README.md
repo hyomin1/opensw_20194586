@@ -112,15 +112,23 @@ $ kill -l
 **1) 매크로란?**
 * 같은 동작을 반복하게 해주는 것이다.
 
-**2) 매크로 실행 방법**
+**2) 매크로 시작 방법**
 
-* 명령모드에서 q[name]을 한다.
+* q[name]을 한다.
 ```c
 $ q[name]
 ```
+![기록중](https://user-images.githubusercontent.com/98298940/171875587-e0dfdd57-07c1-4865-aa1a-4ad0c44ca1af.png)
 
-![매크로 실행](https://user-images.githubusercontent.com/98298940/171873716-c31fd9a9-c93b-4215-af54-961e35f367b9.png)
+* 그러면 recording @a 라면서 a라는 이름의 매크로가 기록중이라는 것을 알 수 있다.
 
-* 그리고 난 후 무슨 동작을 할 것인지 입력해준다.
+**3) 동작 입력**
+
+![동작](https://user-images.githubusercontent.com/98298940/171876160-d7f738b2-b8d9-4bb4-acb4-94236981689f.png)
+
+* 여기서는 매크로 동작 입력에 입력모드를 실행시킨후 hello world를 입력했다
+
+
+
 
 
