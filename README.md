@@ -105,6 +105,9 @@ $ kill -l
 
 ![kill](https://user-images.githubusercontent.com/98298940/171872431-c70b8166-0db0-4d34-9c6c-c3ec56432c76.png)
 
+---
+
+## vim에디터에서 매크로 사용법
 
 
 
